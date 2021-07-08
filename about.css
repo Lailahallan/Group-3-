@@ -1,0 +1,229 @@
+*{ 
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	background-image: url("ABOUT IMAGE/image3.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+
+header {
+	background-color: #f7cac9;
+	color: white;
+	height: 120px;
+	margin-bottom: 50px;
+}
+ 
+.main ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+	
+}
+
+.main ul li{ 
+	display: inline-table; 
+}
+
+.main ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #800080;
+	padding: 5px 20px;
+	border: 1px solid #B8860B transparent;
+    transition: 0.3s ease;
+	
+}
+
+.main ul li a:hover{
+	background-color: #800000;
+	color: #ffffff;
+}
+
+.dropdown {
+	display: none;
+	
+}
+
+.main ul li:hover .dropdown {
+	display: block;
+	position: absolute;
+}
+	
+.main ul li:hover .dropdown ul {
+	display: block;
+	margin: 10px;
+}
+
+.main ul li:hover .dropdown ul li {
+	width: 200px;
+	padding: 20px;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+.title h1 {
+	font-family: myFirstFont;
+	src: url(sansation_light.woff);
+	font-size: 80px; 
+	color: #bdb76b;
+	
+}
+
+
+.about-section {
+	margin-bottom: 80px;
+	padding: 50px;
+	text-align: justify;
+	font-size: 15px;
+	background-color: #808080;
+	color: white; 	
+	text-indent: 50px;
+	letter-spacing: 3px;
+	
+}
+
+.about-section p { 
+	font-family: Georgia, serif;
+	
+}
+
+.a {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10%;
+	line-height: 1.4;
+}
+
+h1 {
+	margin-left: 40px; 
+	font-family: "Open Sans";
+	src: url ("/fonts/OpenSans-Regular-webfont.woff2") format ("woff2"),
+		 url ("/fonts/OpenSans-Regular-webfont.woff2") format ("woff2");
+	font-size: 40px;
+}
+
+p {
+	font-family: MyHelvetica;
+	src: local("Helvetica Neue Bold"),
+		 local("HelveticaNeue-Bold"),
+		 url(MgOpenModernaBold.ttf);   
+	font-size: 25px;
+	letter-spacing: 2px;
+	margin-right: 20px;
+	padding: 2px;
+
+}
+.b {  
+	text-align: left;	
+	margin-left: 40px;
+	margin-bottom: 10%;	
+	 	
+}
+
+ol li{ 
+    list-style-type: circle;
+	display: inline-block
+	text-align: left;
+	line-height: 1.8;
+	font-family: MyHelvetica;
+	src: local("Helvetica Neue Bold"),
+		 local("HelveticaNeue-Bold"),
+		 url(MgOpenModernaBold.ttf); 
+	font-size: 25px;
+	
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Georgia, serif;
+}
+
+img {
+	border: 2px solid #ffffff;
+	border-radius: 100px;   
+	transform: translate(50%, -50%);
+	padding: 7px;	
+	margin-right: 70px;
+	margin-top: 60px;
+	
+}
+#more {
+	display: none;
+}
+
+.more {
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	
+}
+
+
+button {
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+button {
+	background-color: #f44336;
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: #000000; 
+	height: 150px;
+	float:center;
+	list-style-type: none;
+	
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: #ff0000;
+}
+
+
+
+.caption {
+	margin-top: 50px;
+	color: lightgray;
+}
+
+.caption p {
+	font-family: Garamond, serif;
+	font-size: 20px;
+}

@@ -1,0 +1,232 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	background-color: #dfcfbe;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+header {
+	background-color: #008080;
+	color: white;
+	height: 150px;
+}
+
+.main ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+	
+}
+
+.main ul li{ 
+	display: inline-table; 
+}
+
+.main ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #000080;
+	padding: 5px 20px;
+	border: 1px solid #B8860B transparent;
+    transition: 0.3s ease;
+	
+}
+
+.main ul li a:hover{
+	background-color: #800000;
+	color: #ffffff;
+}
+
+.dropdown {
+	display: none;
+	
+}
+
+.main ul li:hover .dropdown {
+	display: block;
+	position: absolute;
+}
+	
+.main ul li:hover .dropdown ul {
+	display: block;
+	margin: 10px;
+}
+
+.main ul li:hover .dropdown ul li {
+	width: 200px;
+	padding: 20px;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+.title h1 {
+	font-size: 50px;
+	font-family: georgia, serif; 
+	color: #800080;
+	margin-top: 70px;
+	margin: 50px;
+}
+
+ p {
+	font-size: 30px;
+	text-align: center;
+	font-family: myFirstFont;
+    src: url(sansation_light.woff);
+	margin-top: 60px;
+	color: #000000;
+	
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Jomhuria', cursive;
+    color: #ffffff;
+}
+ 
+.slideshow-container {
+	max-width: 700px;
+	position: relative;
+	margin: auto;
+	border: 5px solid #ddd;
+	border-radius: 7px;
+	padding: 5px; 
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #ffff00;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: #000000; 
+	height: 150px;
+	float:center;
+	list-style-type: none;
+	margin-top: 70px;
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: #ff0000;
+}
+
+
+.caption {
+	margin-top: 50px;
+	color: lightgray;
+}
+
+
+.caption p {
+	font-family: Garamond, serif;
+	font-size: 20px;
+}

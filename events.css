@@ -1,0 +1,157 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	background-color: #f5fffa;
+	background-position: center;
+	background-size: cover;
+}
+
+
+header {
+	background-color: #90ee90;
+	color: white;
+	height: 120px;
+	margin-bottom: 50px;
+}
+ 
+.main ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+	
+}
+
+.main ul li{ 
+	display: inline-table; 
+}
+
+.main ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #008000;
+	padding: 5px 20px;
+	border: 1px solid #3cb371 transparent;
+    transition: 0.3s ease;
+	
+}
+
+.main ul li a:hover{
+	background-color: #98fb98;
+	color: #f0fff0;
+}
+
+.dropdown {
+	display: none;
+	
+}
+
+.main ul li:hover .dropdown {
+	display: block;
+	position: absolute;
+}
+	
+.main ul li:hover .dropdown ul {
+	display: block;
+	margin: 10px;
+}
+
+.main ul li:hover .dropdown ul li {
+	width: 200px;
+	padding: 20px;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+h1 { 
+	
+	font-family: Georgia, serif;
+	text-align: center;
+	color: #660033; 
+	margin-bottom: 50px;
+	font-size: 40px;
+	text-shadow: 1px 1px 2px black, 0 0 15px white, 0 0 5px black;
+	 
+	
+}
+
+img { 
+	border: 5px solid #660033;
+	border-radius: 50%;
+	margin-bottom: 80px; 
+}
+
+.text {
+	text-align: center;
+	padding: 20px;  
+	letter-spacing: 5px;
+	background-color: #f08080;
+
+}
+
+.text p {
+	font-family: MyHelvetica;
+	src: local("Helvetica Neue Bold"),
+		 local("HelveticaNeue-Bold"),
+		 url(MgOpenModernaBold.ttf);
+    font-size: 25px;	
+	padding: 30px;
+	border: 2px solid #ffffff; 
+}
+
+video {
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: 2px solid #000000;
+	padding: 5px;
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: #000000; 
+	height: 150px;
+	float:center;
+	list-style-type: none;
+	
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: #ff0000;
+}
+
+
+
+.caption {
+	margin-top: 50px;
+	color: lightgray;
+}
+
+.caption p {
+	font-family: Garamond, serif;
+	font-size: 20px;

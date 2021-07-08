@@ -1,0 +1,187 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	background-image: url("image2.png");
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+header {
+	background-color: #468db4;
+	color: white;
+	height: 150px;
+}
+.main ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+	
+}
+
+.main ul li{ 
+	display: inline-table;
+}
+
+.main ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #00ff00;
+	padding: 5px 20px;
+	border: 1px solid #B8860B transparent;
+    transition: 0.3s ease;
+	
+}
+
+.main ul li a:hover{
+	background-color: #808080; 
+}
+
+.dropdown {
+	display: none;
+}
+
+.main ul li:hover .dropdown {
+	display: block;
+	position: absolute;
+}
+	
+.main ul li:hover .dropdown ul {
+	display: block;
+	margin: 10px;
+}
+
+.main ul li:hover .dropdown ul li {
+	width: 200px;
+	padding: 20px;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+.heading {
+	font-size: 70px;
+	color: #ff7f50;
+	margin-top: 10%;
+	text-align: center; 
+	margin-top: 40px;
+	padding: 30px;
+}
+
+.heading span {
+	font-style: italic;
+	font-size: 30px;
+	color: #fff8dc;
+	
+}
+
+}
+.container{
+    background: #000000;
+}
+
+.row {
+	background: #696969;
+}
+.nav-bar {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+}
+
+img {
+	margin-bottom: -3%;
+}
+.our-team{
+    padding: 20px 15px 30px;  
+    text-align: center;
+}
+
+.our-team .picture {
+    display: inline-block; 
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .picture {
+    background: #a52a2a; 
+}
+.picture img{
+    width: 70%;
+    height: 60%; 
+}
+
+.our-team .title{
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff00ff; 
+    text-transform: uppercase; 
+	margin-bottom: 20px;
+	font-family: 'Righteous', cursive; 
+	
+}
+ 
+.our-team .nav-bar{
+	margin-bottom: 45px;
+	margin-top: 30px;
+    list-style: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+.post {
+	font-family: 'Castoro', serif;
+	font-size: 25px; 
+	color: #deb887;
+}
+
+@media only screen and (max-width: 800px){
+    .our-team{ 
+	margin-bottom: 30px;
+	}
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: #000000; 
+	height: 150px;
+	float:center;
+	list-style-type: none;
+	
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: #ff0000;
+}
+
+
+.caption {
+	margin-top: 50px;
+	color: lightgray;
+}

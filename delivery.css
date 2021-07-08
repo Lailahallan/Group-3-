@@ -1,0 +1,153 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px; 
+}
+
+body{
+	background-color: #f08080;
+	background-position: center;
+	background-size: cover;
+}
+
+ header {
+	background-color: #f1f1f1;
+	color: white;
+	height: 120px;
+	margin-bottom: 50px;
+}
+
+.main ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 20px;
+	
+}
+
+.main ul li{ 
+	display: inline-table; 
+}
+
+.main ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #000000;
+	padding: 5px 20px;
+	border: 1px solid #B8860B transparent;
+    transition: 0.3s ease;
+	
+}
+
+.main ul li a:hover{
+	background-color: #7fffd4;
+	color: #ffffff;
+}
+
+.dropdown {
+	display: none;
+	
+}
+
+.main ul li:hover .dropdown {
+	display: block;
+	position: absolute;
+}
+	
+.main ul li:hover .dropdown ul {
+	display: block;
+	margin: 10px;
+}
+
+.main ul li:hover .dropdown ul li {
+	width: 200px;
+	padding: 20px;
+	background: transparent;
+	border-radius:0;
+	text-align: left;
+}
+
+h1 {
+	padding-top: 5%;
+	text-align: center;
+	font-size: 45px;
+	color: #a52a2a;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 50px;
+	
+}
+
+.picture {
+	text-align: center; 
+
+}
+
+img {
+	padding: 20px; 
+	border: 2px solid #ffffff;
+	margin-bottom: 50px;
+}
+.section {
+	text-align: center;
+	font-size: 25px; 
+	color: #000000;
+	font-family: Garamond, serif;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	padding: 10px;  
+	letter-spacing: 4px; 
+	background-color: #cd5c5c;
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+	color: purple;
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 50px;  
+	margin-bottom: 50px;
+}
+
+.page {
+	text-align: center;
+	padding: 3px;
+	background-color: #000000; 
+	height: 150px;
+	float:center;
+	list-style-type: none;
+	
+}
+
+.page ul {
+	margin: 50px;
+}
+
+.page ul li{ 
+	display: inline-table; 
+}
+
+.page ul li a {
+	font-family: georgia, serif;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+    transition: 0.3s ease;
+	
+}
+
+
+.page ul li a:hover{
+	color: #ff0000;
+}
+
+
+
+.caption {
+	margin-top: 50px;
+	color: lightgray;
+}
+
+.caption p {
+	font-family: Garamond, serif;
+	font-size: 20px;
+}
