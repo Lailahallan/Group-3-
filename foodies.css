@@ -194,7 +194,7 @@ h3 {
 	height: 150px;
 	float:center;
 	list-style-type: none;
-	margin-top: 70px;
+	
 }
 
 .page ul {
@@ -220,11 +220,11 @@ h3 {
 }
 
 
+
 .caption {
 	margin-top: 50px;
 	color: lightgray;
 }
-
 
 .caption p {
 	font-family: Garamond, serif;
