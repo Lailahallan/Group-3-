@@ -216,11 +216,13 @@ h3 {
 
 .caption {
 	margin-top: 50px;
-	color: lightgray;
+	
 }
 
 
 .caption p {
 	font-family: Garamond, serif;
 	font-size: 20px;
+	color: lightgray;
 }
+
