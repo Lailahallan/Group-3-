@@ -204,25 +204,19 @@ h3 {
 	text-decoration: none;
 	color: #ffffff;
 	padding: 5px 20px;
-    transition: 0.3s ease;
-	
+        transition: 0.3s ease;	
 }
-
 
 .page ul li a:hover{
 	color: #ff0000;
 }
-
-
+ 
 .caption {
 	margin-top: 50px;
-	
-}
-
-
+ }
+ 
 .caption p {
 	font-family: Garamond, serif;
 	font-size: 20px;
 	color: lightgray;
 }
-
